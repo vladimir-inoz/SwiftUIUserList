@@ -19,18 +19,14 @@ struct AsyncImage<Placeholder: View>: View {
     }
     
     var body: some View {
+        Group {
         image
             .onAppear(perform: loader.load)
             .onDisappear(perform: loader.cancel)
-    }
-    
-    @ViewBuilder private var image: some View {
-        Group {
-            makeImage()
         }
     }
     
-    @ViewBuilder private func makeImage() -> some View {
+    @ViewBuilder private var image: some View {
         if let image = loader.image {
             Image(uiImage: image)
             .resizable()

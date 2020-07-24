@@ -13,8 +13,11 @@ struct Tutor: Identifiable {
     var name: String
     var headline: String
     var bio: String
-    
-    var imageName: String { return name }
+
+    var imageURL: URL {
+        //loading pic from url
+        return URL(string: "https://i.pravatar.cc/100")!
+    }
 }
 
 #if DEBUG

@@ -25,8 +25,10 @@ struct Cell: View {
     
     var body: some View {
         HStack {
-            Image(tutor.imageName)
-                .cornerRadius(40)
+            AsyncImage(url: tutor.imageURL,
+                       placeholder: AsyncImagePlaceholder())
+                .frame(height: 80)
+                .aspectRatio(1, contentMode: .fit)
             VStack(alignment: .leading, spacing: 4) {
                 Text(tutor.name)
                     .font(.headline)

@@ -16,6 +16,7 @@
 		E353AF1024CABF1E00521DC9 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AF0F24CABF1E00521DC9 /* Tutor.swift */; };
 		E353AF1324CAC25D00521DC9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AF1224CAC25D00521DC9 /* ImageLoader.swift */; };
 		E353AF1524CAC31100521DC9 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AF1424CAC31100521DC9 /* AsyncImage.swift */; };
+		E353AF1724CAC77300521DC9 /* AsyncImagePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AF1624CAC77300521DC9 /* AsyncImagePlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E353AF0F24CABF1E00521DC9 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		E353AF1224CAC25D00521DC9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		E353AF1424CAC31100521DC9 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		E353AF1624CAC77300521DC9 /* AsyncImagePlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePlaceholder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				E353AF1224CAC25D00521DC9 /* ImageLoader.swift */,
 				E353AF1424CAC31100521DC9 /* AsyncImage.swift */,
+				E353AF1624CAC77300521DC9 /* AsyncImagePlaceholder.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				E353AF1024CABF1E00521DC9 /* Tutor.swift in Sources */,
 				E353AEFC24C9D30200521DC9 /* AppDelegate.swift in Sources */,
+				E353AF1724CAC77300521DC9 /* AsyncImagePlaceholder.swift in Sources */,
 				E353AF1324CAC25D00521DC9 /* ImageLoader.swift in Sources */,
 				E353AEFE24C9D30200521DC9 /* SceneDelegate.swift in Sources */,
 				E353AF1524CAC31100521DC9 /* AsyncImage.swift in Sources */,
